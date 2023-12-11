@@ -1,0 +1,10 @@
+#  Check prime no or not
+n=int(input("Enter the number: "))   7
+f=True
+for i in range(2,n):
+    if(n%i==0):
+        f=False
+if(f):
+    print(n,"is a prime no")
+else:
+    print(n,"is not a prime no")
